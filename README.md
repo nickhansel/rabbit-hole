@@ -53,11 +53,12 @@ make  setup
 
 ### Usage
 
-### NOTE: These commands only work on UNIX machines. If you have a Windows machine you can do:
-1. cd backend && pip install -r requirements.txt
-2. cd backend && python3 app.py
-3. cd frontend && npm install
-4. cd frontend && npm run dev
+### NOTE: These commands only work on UNIX machines because of how the ports are handled. If you have a Windows machine you can do:
+1. ```cd backend && pip install -r requirements.txt```
+2. ```python3 app.py```
+3. ```cd ../frontend && npm install```
+5. ```npm run dev ```
+<tr/>
 
 1. To run the backend using Python:
 
